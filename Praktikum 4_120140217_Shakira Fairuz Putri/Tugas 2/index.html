@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shakira</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <img src="foto.jpg" weidth="80%" height="80%" alt="" />
+        <div class="banner-text">
+          <h1>Hai, saya <span>Shakira Fairuz Putri</span></h1>
+          <p>Seorang Kpopers</p>
+          <button onclick="toggle()">
+            Dark Mode
+          </button>
+        </div>
+      </div>
+      <nav>
+        <ul class="breadcrumb">
+            <li> <a href="https://www.instagram.com/shakirafrz_/">Instagram</a> </li>
+            <li> <a href="mailto:shakira.120140217@student.itera.ac.id">Email</a> </li>
+            <li> <a href="https://github.com/shakirafairuz">Github</a> </li>
+            <li> <a href="https://wa.me/+6285771979170">WhatsApp</a> </li>
+            <li></li>
+        </ul>
+    </nav>
+    </header>
+    <h3 id="about"># Tentang saya</h3>
+    <div class="container-tentang">
+      <div class="left">
+        <p>
+          <img src="hurufn.png" alt="alternatif teks" class="simbol-l" />
+          ama saya Shakira Fairuz Putri. Saya sedang menempuh pendidikan S1 dengan program studi Teknik Informatika di Institut Teknologi Sumatera. Saya orang yang mudah bergaul, karena saya juga mengikuti organisasi di kampus saya. Saya memiliki ketertarikan di bidang UI/UX.
+        </p>
+      </div>
+      <div class="right">
+        <iframe width="520" height="315" src="https://www.youtube.com/embed/0JeyMBOPLqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Tutorial Figma</p>
+      </div>
+    </div>
+    <h3 id="experience"># pengalaman kerja</h3>
+    <table border="1">
+      <thead>
+        <tr>
+          <th rowspan="2">#</th>
+          <th rowspan="2">POSISI</th>
+          <th rowspan="2">PERUSAHAAN</th>
+          <th colspan="2">WAKTU</th>
+        </tr>
+        <tr>
+          <th>MULAI</th>
+          <th>SELESAI</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td v-align="center">1</td>
+          <td>Staff Desain Kreatif</td>
+          <td>HMIF</td>
+          <td>2022</td>
+          <td>Sekarang</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Kepala Divisi Kreatif</td>
+          <td>Riuh Wisuda Oktober 2022</td>
+          <td>2022</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Staff Desain Kreatif</td>
+          <td>Funcoustic 2022</td>
+          <td>2022</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Corporis Quidem Iure</td>
+          <td>Adipisicing Elit Accusamous</td>
+          <td>1982</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Tenetur Nisi Architecto</td>
+          <td>Lorem ipsum</td>
+          <td>2022</td>
+          <td>2200</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="contact"># pertanyaan</h3>
+    <div class="pertanyaan">
+      <form>
+        <div class="nama">
+          <label>Nama </label>
+          <input type="text" id="fname" />
+        </div>
+        <div class="nonton">
+          <label for="pil">Sudah menonton film saya?</label>
+          <div>
+            <input type="radio" name="sudah" id="sudah" value="sudah" />
+            <label>Sudah</label>
+            <input type="radio" name="sudah" id="belum" value="belum" />
+            <label>Belum</label>
+          </div>
+        </div>
+        <div class="coba">
+          <label for="pil">Apa coba?</label>
+          <div>
+            <input type="checkbox" id="ini" />
+            <label>Ini</label>
+            <input type="checkbox" id="itu" />
+            <label>Itu</label>
+            <input type="checkbox" id="anu" />
+            <label>Anu</label>
+          </div>
+        </div>
+        <button class="submit" type="submit">KIRIM</button>
+      </form>
+    </div>
+    <footer>
+      <p>ini footer</p>
+    </footer>
+    <script src="java.js"></script>
+  </body>
+</html>
