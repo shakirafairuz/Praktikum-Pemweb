@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+form {
+    align-content: center;
+    width: 300px;
+    background-color: rgb(196, 131, 81);
+    border-radius: 10px;
+}
+input {
+    border-radius: 10px;
+}
+
+.desain-layout {
+    text-align: center;
+} 
+.box {
+    background-color: rgb(133, 118, 45);
+    width: 250px;
+    border-radius: 10px;
+} 
+
+button {
+    border: none;
+    background-color: rgb(203, 199, 187);
+    border-radius: 20px;
+}
